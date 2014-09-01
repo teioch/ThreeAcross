@@ -77,6 +77,7 @@ public class GUI extends JFrame implements ActionListener{
         grid = new JButton[]{button1, button2, button3, button4, button5, button6, button7, button8, button9};
 
         label = new JLabel();
+        label.setHorizontalAlignment(SwingConstants.CENTER);
         label.setText("X's turn!");
 
         clearButton = new JButton();
