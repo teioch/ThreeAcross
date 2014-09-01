@@ -1,4 +1,4 @@
-import javax.swing.*;
+import javax.swing.WindowConstants;
 
 public class Game {
     public static void main(String[] args){
@@ -8,7 +8,5 @@ public class Game {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setSize(250,250);
         frame.setVisible(true);
-
-
     }
 }
